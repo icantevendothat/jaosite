@@ -1,0 +1,54 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 98%;
+    height: 98%;
+    overflow: hidden;
+    background-size: cover;
+    background-color: black;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+.navigation-arrows {
+    position: fixed;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    pointer-events: none; 
+    z-index: 100; 
+}
+
+/* .arrow {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 20px;
+    font-size: 2em;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+    pointer-events: all;
+} */
+
+.arrow {
+    pointer-events: all;
+}
+
+.arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.left-arrow {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: 10px;
+}
+
+.right-arrow {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-right: 10px;
+}
