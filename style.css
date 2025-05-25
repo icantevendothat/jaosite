@@ -101,9 +101,4 @@ body, html {
     .navigation-arrows {
         display: none;
     }
-
-    /* Optionally blur the background content (or you can just hide it as arrows are hidden) */
-    body {
-        filter: blur(5px); /* Apply a blur effect to the background */
-    }
 }
